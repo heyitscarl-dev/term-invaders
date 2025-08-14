@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+term-invaders-engine = { path = "../term-invaders-engine/" }
 crossterm = "0.29.0"
-hecs = "0.10.5"

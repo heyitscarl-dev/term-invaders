@@ -306,12 +306,16 @@ name = "term-invaders"
 version = "0.1.0"
 dependencies = [
  "crossterm",
- "hecs",
+ "term-invaders-engine",
 ]
 
 [[package]]
 name = "term-invaders-engine"
 version = "0.1.0"
+dependencies = [
+ "crossterm",
+ "hecs",
+]
 
 [[package]]
 name = "term-invaders-macros"
