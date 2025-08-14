@@ -1,2 +1,3 @@
 [workspace]
 resolver = "3"
+members = ["crates/term-invaders", "crates/term-invaders-engine", "crates/term-invaders-macros"]
